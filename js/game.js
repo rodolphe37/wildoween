@@ -1,9 +1,9 @@
 const mainBoard = "#boxes";
 
-const counter = 0;
-const cardOpened = "";
-const imageOpened = "";
-const imgFound = 0;
+let counter = 0;
+let cardOpened = "";
+let imageOpened = "";
+let imgFound = 0;
 
 const gfxBase = [
     "gfx/icon1.png",
@@ -32,9 +32,9 @@ function doRandom(max, min) {
 // put images in random order
 function shuffleImgs() {
     
-    const allImgs = $(mainBoard).children();
-    const thisImg = $(mainBoard + " div:first-child");
-    const imgsArr = new Array();
+    let allImgs = $(mainBoard).children();
+    let thisImg = $(mainBoard + " div:first-child");
+    let imgsArr = new Array();
     
     for (let i = 0; i < allImgs.length; i++) {
         imgsArr[i] = $("#" + thisImg.attr("id") + " img").attr("src");
