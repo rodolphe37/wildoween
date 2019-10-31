@@ -4,6 +4,7 @@ let counter = 0;
 let cardOpened = "";
 let imageOpened = "";
 let imgFound = 0;
+let victorimage = false;
 
 const gfxBase = [
     "gfx/icon1b.png",
@@ -119,6 +120,17 @@ function openCard() {
         // finished!
         if (imgFound == gfxBase.length) {
             $("#counter").prepend('<span id="success">Done! With </span>');
+            const audio2=document.createElement('audio');
+           let first=true;
+           window.addEventListener('mouseup',onmouseup);
+           function onmouseup(){
+           if(!first) return;
+           first=false;
+           audio2.src="./cri.mp3";
+           audio2.play();
+           }
+            $( ".text-pop-up-top" ).prepend( "<h1>You Win!!!</h1>" );
+            
         }
     }
 }
