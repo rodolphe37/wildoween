@@ -84,3 +84,16 @@ body {
 #gameButtons .button:hover {
     background: #777;
 }
+
+
+@media (orientation: landscape) and (max-width : 768px){
+    .title {
+    position: absolute;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    margin-top: 0;
+    margin-left: -15vh;
+    font-size: 1rem;
+    }
+}
+
