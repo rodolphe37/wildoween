@@ -15,7 +15,7 @@ const gfxBase = [
     "gfx/icon7b.png",
     "gfx/icon8b.png",
     "gfx/icon9b.png",
-    "gfx/icon10.png"
+    "gfx/icon10b.png"
 ];
 
 /* preload images */
