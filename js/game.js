@@ -11,8 +11,8 @@ const gfxBase = [
     "gfx/icon3b.png",
     "gfx/icon4b.png",
     "gfx/icon5b.png",
-    "gfx/icon6.png",
-    "gfx/icon7.png",
+    "gfx/icon6b.png",
+    "gfx/icon7b.png",
     "gfx/icon8.png",
     "gfx/icon9.png",
     "gfx/icon10.png"

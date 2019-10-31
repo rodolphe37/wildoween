@@ -86,7 +86,7 @@ body {
 }
 
 
-@media (orientation: landscape) and (max-width : 768px){
+/*@media (orientation: landscape) and (max-width : 768px){
     .title {
     position: absolute;
     writing-mode: vertical-rl;
@@ -95,5 +95,16 @@ body {
     margin-left: -15vh;
     font-size: 1rem;
     }
-}
+}*/
+
+@media screen and (max-device-width: 768px) {
+    .title {
+        position: absolute;
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        margin-top: 0;
+        margin-left: -15vh;
+        font-size: 1rem;
+        }
+    }
 
