@@ -6,7 +6,7 @@ let imageOpened = "";
 let imgFound = 0;
 
 const gfxBase = [
-    "gfx/icon1.png",
+    "gfx/icon1b.png",
     "gfx/icon2.png",
     "gfx/icon3.png",
     "gfx/icon4.png",
