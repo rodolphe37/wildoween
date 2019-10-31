@@ -7,8 +7,8 @@ let imgFound = 0;
 
 const gfxBase = [
     "gfx/icon1b.png",
-    "gfx/icon2.png",
-    "gfx/icon3.png",
+    "gfx/icon2b.png",
+    "gfx/icon3b.png",
     "gfx/icon4.png",
     "gfx/icon5.png",
     "gfx/icon6.png",

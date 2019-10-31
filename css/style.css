@@ -1,7 +1,7 @@
 @font-face{
-    font-family:"Halls";
-    src:local('Halls'),
-      url('./Halls.ttf') format('truetype');
+    font-family:"RW-creepsville";
+    src:local('RW-creepsville'),
+      url('./RW-creepsville.ttf') format('truetype');
   }
 * {
     margin: 0;
@@ -20,6 +20,14 @@ body {
     font: 20px Verdana;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+.title {
+    font-family: RW-creepsville;
+    color: red;
+    font-size: 4rem;
+    margin-left: 24px;
+    text-shadow: 1px 2px 5px black, 2px 1px 5px white;
 }
 
 #gameBoard {
@@ -59,7 +67,7 @@ body {
 }
 
 #gameButtons .button {
-    background: #33c8c4;
+    background: #0a0915;
     border-radius: 10px;
     cursor: pointer;
     padding: 5px 10px;
