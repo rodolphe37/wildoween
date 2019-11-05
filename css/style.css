@@ -116,16 +116,9 @@ body {
 }
 
 
-/*@media (orientation: landscape) and (max-width : 768px){
-    .title {
-    position: absolute;
-    writing-mode: vertical-rl;
-    text-orientation: upright;
-    margin-top: 0;
-    margin-left: -15vh;
-    font-size: 1rem;
-    }
-}*/
+span.button2 {
+    display: none;
+}
 
 @media screen and (max-device-width: 768px) {
     .title {
